@@ -3,7 +3,7 @@ jQuery + Underscorejs tabs plugin example.
 Simple usage:
 
 Html:
-<code>
+```html
     <div id="tab-container">
         <ul class="tabs-links">
             <li><a href="#" class="active">Tab 1</a></li>
@@ -14,8 +14,7 @@ Html:
 
         </div>
     </div>
-</code>
-
+```
 Template:
 ```javascript
  <script id="tabsTemplate" type="text/template">
@@ -29,8 +28,6 @@ Template:
 ```
  Call the plugin:
  ```javascript
- <script>
-
      (function($, _) {
          $('#tab-container').tabs({
              tabsContainerClass: "tab-content-container",
@@ -39,6 +36,4 @@ Template:
          });
 
      })(jQuery, _);
-
- </script>
  ```
