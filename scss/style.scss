@@ -1,0 +1,14 @@
+@import "compass";
+.ex {
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+  @include clearfix;
+}
+.ex {
+  width: 37%;
+  margin-right: 22%;
+  float: left;
+  @include clearfix;
+}
+

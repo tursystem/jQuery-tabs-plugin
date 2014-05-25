@@ -1,0 +1,45 @@
+body {
+    background: #e3e3e3;
+    font-family: sans-serif;
+    width: 400px;
+    margin: 100px auto;
+}
+
+div#tab-container
+div.tab-content-container div:not(.active) {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    display: inline;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid gray;
+
+    height: 0;
+    line-height: 50px;
+}
+
+a.active {
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #FEDF86;
+}
+
+div.tab-content-container {
+    border: 1px solid #4c4c4c;
+    border-top: 3px solid #4c4c4c;
+    padding: 20px;
+}
