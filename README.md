@@ -11,7 +11,6 @@ Html:
             <li><a href="#">Tab 3</a></li>
         </ul>
         <div class="tab-content-container">
-
         </div>
     </div>
 ```
